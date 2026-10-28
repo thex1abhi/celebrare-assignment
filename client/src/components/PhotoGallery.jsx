@@ -44,7 +44,7 @@ function PhotoGallery({ search }) {
                 <p className="mt-20 text-center text-lg text-gray-600" role="status">
                     No photos found{query ? ` for "${search.trim()}"` : ''}.
                 </p>
-            )}z
+            )}
 
             <div className="grid grid-cols-1 mt-12 md:grid-cols-2 lg:grid-cols-4 gap-3 p-6">
                 {filteredPhotos.map((photo) => {
